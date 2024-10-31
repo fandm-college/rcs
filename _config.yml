@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Rsearch Computing Services at Franklin and Marshall College # the website title (if blank, full name will be used instead)
-#first_name: You
+title: Research Computing Services at Franklin and Marshall College # the website title (if blank, full name will be used instead)
+first_name: Tony
 #middle_name: R.
-#last_name: Name
-email: dorc.fandm.edu
+last_name: Weaver
+email: aweaver1@fandm.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
