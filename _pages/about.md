@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 #profile:
 #  align: right
@@ -32,22 +32,26 @@ or via e-mail: dorc@fandm.edu
 
 We provide assistance in the following areas:
 
-<p>**Computing**</p>
+### Computing
   - High Performance Computing (HPC) cluster
   - GPU-based computation systems
   - High-memory compute systems
   - External compute resources (e.g. Open Science Grid)
-<p>**Software**</p>
+
+### Software
   - Research-related software installation and maintenance
   - General purpose software (e.g., MATLAB, Jupyter Notebooks, etc.)
-<p>**Data**</p>
+
+### Data
   - Storage and backup
   - Shared data for research groups
   - Data transfer/sharing with collaborators using Globus
-<p>**Education and outreach**</p>
+
+### Education and outreach
   - Training for different resources (compute cluster, Globus, etc.)
   - Computational workflow review/optimization
-<p>**Grant assitance**</p>
+
+### Grant assitance
   - Guidance for equipment/software purchasing
   - Data management
 

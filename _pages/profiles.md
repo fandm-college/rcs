@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: RCS staff
+title: RCS staff
+#description: RCS staff
 nav: true
 nav_order: 7
 
@@ -15,6 +15,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Stager 007</p>
+      <p>Director Research Computing Services</p>
       <p>jbrooks1@fandm.edu</p>
   - align: left
     image: statler.jpg
