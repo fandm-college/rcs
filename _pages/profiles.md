@@ -10,9 +10,9 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    image: waldorf.jpg
     content: about_jason.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
       <p>Stager 007</p>
       <p>jbrooks1@fandm.edu</p>
@@ -22,7 +22,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Tony Weaver</p>
-      <p>Research Computing Programmer and System Administrator</p>
+      <p>Research Computing Programmer</p>
       <p>Stager 007</p>
       <p>aweaver1@fandm.edu</p>
 ---

@@ -4,20 +4,47 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Stager 007</p>
+#profile:
+#  align: right
+#  image: prof_pic.jpg
+#  image_circular: false # crops the image to make it circular
+#  more_info: >
+#    <p>Stager 007</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# Overview
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Research Computing Services (RCS) provides computational support to research and 
+teaching when those needs excede the capabailities of a standard personal 
+computer. Our goal is to make the access and use of specialized compute 
+and data storage resources easier for faculty and students 
+at Franklin & Marshall College as well as to facilitate 
+collaboration across institutions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You may reach us by openeing a [support request](https://request.fandm.edu/)
+or via e-mail: dorc@fandm.edu
+
+## Research support
+
+We provide assistance in the following areas:
+
+| **Computing** | {::nomarkdown}<ul><li>High Performance Compute (HPC) cluster</li><li>GPU compute systems</li><li>High-memory compute systems</li></ul>{:/} |
+| **Software** |{::nomarkdown}<ul><li>Research-related software installation/maintenance</li><li>ArcGIS</li><li>MATLAB</li><li>RStudio Pro</li><li>Jupyter Notebooks</li></ul>{:/} |
+| **Data** | {::nomarkdown}<ul><li>Storage/backup</li><li>Shared data for research groups</li><li>Transfer with research collaborators/off-campus using Globus</li></ul>{:/} |
+| **Education/Outreach** | {::nomarkdown}<ul><li>Training</li><li>Computational workflow optimization</li></ul>{:/} |
+| **Grant assistance** | {::nomarkdown}<ul><li>Guidance purchasing computer equipment</li><li>Data management plans</li></ul>{:/} |
+
+## Class/teaching support
+
+We also provide some support/access to computational resources to 
+classes that wish to use:
+
+- ArcGIS
+- MATLAB
+- Jupyter Notebooks
+- RStudio Pro
+- Webwork
