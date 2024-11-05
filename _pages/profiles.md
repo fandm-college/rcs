@@ -15,7 +15,6 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Jason Brooks</p>
-      <p>Director Research Computing Services</p>
       <p>Stager 007</p>
       <p>jbrooks1@fandm.edu</p>
   - align: left
@@ -24,7 +23,6 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Tony Weaver</p>
-      <p>Research Computing Programmer</p>
       <p>Stager 007</p>
       <p>aweaver1@fandm.edu</p>
 ---
