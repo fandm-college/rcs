@@ -5,11 +5,9 @@ permalink: /overview/
 description: Accessing compute resources
 ---
 
-`
-If you aren't familiar with command-line style of interaction and/or
+`If you aren't familiar with command-line style of interaction and/or
 with the Linux operating system, we recommend looking through our Linux tutorial 
-beginning with the [Introduction to the command-line](404.md)
-`
+beginning with the [Introduction to the command-line](404.md)`
 
 Access to compute resources can be broken into 3 categories
 1. Web access, VPN not required
