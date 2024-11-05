@@ -15,10 +15,4 @@ children:
     permalink: /arcgis/
   - title: Matlab
     permalink: /matlab/
-  - title: WeBWork
-    permalink: /webwork/
-  - title: R/Posit
-    permalink: /r_posit/
-  - title: Jupyter
-    permalink: /jupyter/
 ---
