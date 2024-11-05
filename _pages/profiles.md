@@ -14,8 +14,9 @@ profiles:
     content: about_jason.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Stager 007</p>
+      <p>Jason Brooks</p>
       <p>Director Research Computing Services</p>
+      <p>Stager 007</p>
       <p>jbrooks1@fandm.edu</p>
   - align: left
     image: statler.jpg

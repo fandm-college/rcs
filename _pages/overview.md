@@ -13,12 +13,14 @@ beginning with the [Introduction to the command-line](404.md)
 
 Access to compute resources can be broken into 3 categories
 1. Web access, VPN not required
-    - [ArcGIS]()
-    - [MATLAB]()
+    - [ArcGIS](404.md)
+    - [MATLAB](404.md)
     - [Globus](https://auth.globus.org)
+ Exact details for logging in to these web-based resources varies
+ and it is highly recommended you visit the ???
 
 2. Web access with VPN if off-campus(i.e., not connected to eduroam)
-    - [Jupyter]()
+    - [Jupyter](404.md)
     - [WebWork](https://math.fandm.edu)
     - [R/Posit](https://math-r.fandm.edu)
     - [Research cluster through OpenOnDemand](https://rcs-scsn.fandm.edu)
