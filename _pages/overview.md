@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Overview for acccessing compute resources
+title: Overview 
 permalink: /overview/
 description: Accessing compute resources
 ---
 
-```note
-If you aren't familiar with such means of interaction and/or aren't familiar 
+```
+If you aren't familiar with command-line style of interaction and/or
 with the Linux operating system, we recommend looking through our Linux tutorial 
-beginning with the [Introduction to the command line](404.md)
+beginning with the [Introduction to the command-line](404.md)
 ```
 
 Access to compute resources can be broken into 3 categories
@@ -29,7 +29,6 @@ To access compute resources in the third category you will need
 two programs: 
 
 SSH - connect to compute resource to run programs
-
 SCP - copy data/files bertween your local computer and the compute resource
 
 ### Mac OS X
