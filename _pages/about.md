@@ -6,7 +6,6 @@ permalink: /
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
-support_categories: [Compute, Software, Data, Training, Grant assistance, Teaching]
 ---
 
 ## Overview
@@ -18,18 +17,32 @@ and data storage resources easier for faculty and students
 at Franklin & Marshall College as well as to facilitate 
 collaboration across institutions.
 
-You may reach us by openeing a [support request](https://request.fandm.edu/)
+You may reach us by opening a [support request](https://request.fandm.edu/)
 or via e-mail: dorc@fandm.edu
 
 We provide assistance in the following areas:
-<!--
+
 <div class="projects">
 <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path=assets/img/compute.jpg
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">{{ Compute }}</h2>
+        <p class="card-text">{{ - High Performance Compute (HPC) cluster
+                                - GPU compute systems
+                                - External compute resources (Access, OSG) }}</p>
+      </div>
+    </div>
   </div>
-</div> < -->
+</div>
 
 ### Computing
   - High Performance Computing (HPC) cluster
