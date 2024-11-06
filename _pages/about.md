@@ -36,10 +36,10 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
-        <ul class="card-text font-weight-light list-group list-group-flush">
-          <li class="list-group-item">High performance compute cluster</li>
-          <li class="list-group-item">GPU compute systems</li>
-          <li class="list-group-item">National compute resources (e.g., ACCESS, OSG)</li>
+        <ul>
+          <li class="font-weight-light">High performance compute cluster</li>
+          <li class="font-weight-light">GPU compute systems</li>
+          <li class="font-weight-light">National compute resources (e.g., ACCESS, OSG)</li>
         </ul>
       </div>
     </div>
@@ -101,30 +101,40 @@ We provide assistance in the following areas:
     </div>
   </div>
 
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path="assets/img/grant.jpg"
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">Grants</h2>
+        <p class="card-text">- Guidance for equipment/software purchases</p>
+        <p class="card-text">- Data management plans</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path="assets/img/train.jpg"
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">Classes</h2>
+        <p class="card-text">ArcGIS, MATLAB, Jupyter notebooks, RStudio, WeBWork</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 </div>
-
-### Software
-  - Research-related software installation and maintenance
-  - installation, troubleshooting, optimization, and training on how to effectively utilize the software for data analysis, simulations, and other computational tasks; essentially, it's technical support tailored specifically to the complex software used in scientific research. 
-
-  - General purpose software (e.g., MATLAB, Jupyter Notebooks, etc.)
-
-### Education and outreach
-  - Training for different resources (compute cluster, Globus, etc.)
-  - Computational workflow review/optimization
-
-### Grant assitance
-  - Guidance for equipment/software purchasing
-  - Data management
-
-## Class/teaching support
-
-We also provide some support/access to computational resources to 
-classes that wish to use:
-
-- ArcGIS
-- MATLAB
-- Jupyter Notebooks
-- RStudio Pro
-- Webwork
