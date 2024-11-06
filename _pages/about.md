@@ -35,13 +35,14 @@ We provide assistance in the following areas:
         class="card-img-top"
       %}
       <div class="card-body">
-        <h2 class="card-title">{{ Compute }}</h2>
-        <p class="card-text">{{ - High Performance Compute (HPC) cluster
-                                - GPU compute systems
-                                - External compute resources (Access, OSG) }}</p>
+        <h2 class="card-title">Compute</h2>
+        <p class="card-text">- High Performance Compute (HPC) cluster</p>
+        <p class="card-text">- GPU compute systems</p>
+        <p class="card-text">- National compute resources (ACCESS, OSG)</p>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 ### Computing
