@@ -2,21 +2,14 @@
 layout: about
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-#profile:
-#  align: right
-#  image: prof_pic.jpg
-#  image_circular: false # crops the image to make it circular
-#  more_info: >
-#    <p>Stager 007</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
+support_categories: [Compute, Software, Data, Training, Grant assistance, Teaching]
 ---
 
-# Overview
+## Overview
 
 Research Computing Services (RCS) provides computational support to research and 
 teaching when those needs excede the capabailities of a standard personal 
@@ -28,9 +21,15 @@ collaboration across institutions.
 You may reach us by openeing a [support request](https://request.fandm.edu/)
 or via e-mail: dorc@fandm.edu
 
-## Research support
-
 We provide assistance in the following areas:
+<!--
+<div class="projects">
+<div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div> < -->
 
 ### Computing
   - High Performance Computing (HPC) cluster
@@ -40,6 +39,8 @@ We provide assistance in the following areas:
 
 ### Software
   - Research-related software installation and maintenance
+  - installation, troubleshooting, optimization, and training on how to effectively utilize the software for data analysis, simulations, and other computational tasks; essentially, it's technical support tailored specifically to the complex software used in scientific research. 
+
   - General purpose software (e.g., MATLAB, Jupyter Notebooks, etc.)
 
 ### Data
