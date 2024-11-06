@@ -36,7 +36,7 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
-        <p class="card-text">- HPC cluster</p>
+        <p class="card-text">- High performance compute cluster</p>
         <p class="card-text">- GPU compute systems</p>
         <p class="card-text">- National compute resources</p>
       </div>
@@ -58,6 +58,43 @@ We provide assistance in the following areas:
         <p class="card-text">- Storage/backup</p>
         <p class="card-text">- Shared data access for research groups</p>
         <p class="card-text">- Data sharing with external collaborators</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path="assets/img/software.jpg"
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">Software</h2>
+        <p class="card-text">- Installation and maintenance</p>
+        <p class="card-text">- Guidance for choosing software</p>
+        <p class="card-text">- Limited support optimizing usage</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path="assets/img/train.jpg"
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">Training</h2>
+        <p class="card-text">- Using different resources</p>
+        <p class="card-text">- Review/optimize computational workflow</p>
       </div>
     </div>
   </div>
