@@ -29,7 +29,7 @@ We provide assistance in the following areas:
       {%
         include figure.liquid
         loading="eager"
-        path=assets/img/compute.jpg
+        path="assets/img/compute.jpg"
         sizes = "250px"
         alt="project thumbnail"
         class="card-img-top"
