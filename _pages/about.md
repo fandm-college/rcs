@@ -36,31 +36,40 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
-        <p class="card-text">- High Performance Compute (HPC) cluster</p>
+        <p class="card-text">- HPC cluster</p>
         <p class="card-text">- GPU compute systems</p>
-        <p class="card-text">- National compute resources (ACCESS, OSG)</p>
+        <p class="card-text">- National compute resources</p>
       </div>
     </div>
   </div>
-</div>
-</div>
 
-### Computing
-  - High Performance Computing (HPC) cluster
-  - GPU-based computation systems
-  - High-memory compute systems
-  - External compute resources (e.g. Open Science Grid)
+  <div class="col">
+    <div class="card h-100 hoverable">
+      {%
+        include figure.liquid
+        loading="eager"
+        path="assets/img/data.jpg"
+        sizes = "250px"
+        alt="project thumbnail"
+        class="card-img-top"
+      %}
+      <div class="card-body">
+        <h2 class="card-title">Data</h2>
+        <p class="card-text">- Storage/backup</p>
+        <p class="card-text">- Shared data access for research groups</p>
+        <p class="card-text">- Data sharing with external collaborators</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
 
 ### Software
   - Research-related software installation and maintenance
   - installation, troubleshooting, optimization, and training on how to effectively utilize the software for data analysis, simulations, and other computational tasks; essentially, it's technical support tailored specifically to the complex software used in scientific research. 
 
   - General purpose software (e.g., MATLAB, Jupyter Notebooks, etc.)
-
-### Data
-  - Storage and backup
-  - Shared data for research groups
-  - Data transfer/sharing with collaborators using Globus
 
 ### Education and outreach
   - Training for different resources (compute cluster, Globus, etc.)
