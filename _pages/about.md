@@ -39,12 +39,8 @@ We provide assistance in the following areas:
         <ul class="card-text">
           <li>High performance compute cluster</li>
           <li>GPU compute systems</li>
-          <li>National compute resources (e.g., ACCESS, OSG)
+          <li>National compute resources (e.g., ACCESS, OSG)</li>
         </ul>
-        <!--
-        <p class="card-text">- High performance compute cluster</p>
-        <p class="card-text">- GPU compute systems</p>
-        <p class="card-text">- National compute resources</p> -->
       </div>
     </div>
   </div>
