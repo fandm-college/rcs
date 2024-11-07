@@ -60,7 +60,7 @@ We provide assistance in the following areas:
         <ul class="card-text">
           <li>Storage/backup</li>
           <li>Shared data access for research groups</li>
-          <li> Data sharing with external collaborators</li>
+          <li>Data sharing with external collaborators</li>
         </ul>
       </div>
     </div>
@@ -78,9 +78,11 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Software</h2>
-        <p class="card-text">- Installation and maintenance</p>
-        <p class="card-text">- Guidance for choosing software</p>
-        <p class="card-text">- Limited support optimizing usage</p>
+        <ul class="card-text">
+          <li>Installation and maintenance</li>
+          <li>Help choosing among multiple software options</li>
+          <li>Limited support software optimization</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -97,8 +99,11 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Training</h2>
-        <p class="card-text">- Using different resources</p>
-        <p class="card-text">- Review/optimize computational workflow</p>
+        <ul class="card-text">
+          <li>In-person workshops</li>
+          <li>Online tutorials</li>
+          <li>Review/optimize computational workflow</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -115,8 +120,10 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Grants</h2>
-        <p class="card-text">- Guidance for equipment/software purchases</p>
-        <p class="card-text">- Data management plans</p>
+        <ul class="card-text">
+          <li>Guidance for equipment/software purchases</li>
+          <li>Data management plans</li>
+        </ul>
       </div>
     </div>
   </div>
