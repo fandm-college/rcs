@@ -37,7 +37,7 @@ We provide assistance in the following areas:
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
         <ul>
-          <li class="font-weight-light">High performance compute cluster</li>
+          <li style="color:D8D8D8" class="font-weight-light">High performance compute cluster</li>
           <li class="font-weight-light">GPU compute systems</li>
           <li class="font-weight-light">National compute resources (e.g., ACCESS, OSG)</li>
         </ul>
