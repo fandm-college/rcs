@@ -15,7 +15,6 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Jason Brooks</p>
-      <p>Pronouns:turd/fat Thor</p>
       <p>Office: Stager 007</p>
       <p>e-mail: jbrooks1@fandm.edu</p>
   - align: left
