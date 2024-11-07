@@ -140,7 +140,7 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Classes</h2>
-        <p class="card-text">ArcGIS, MATLAB, Jupyter notebooks, RStudio, WeBWork</p>
+        <p class="card-text">Account access to ArcGIS, MATLAB, Jupyter notebooks, RStudio, WeBWork</p>
       </div>
     </div>
   </div>
