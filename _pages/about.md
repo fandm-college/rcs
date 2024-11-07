@@ -36,10 +36,10 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
-        <ul>
-          <li style="color:D8D8D8" class="font-weight-light">High performance compute cluster</li>
-          <li class="font-weight-light">GPU compute systems</li>
-          <li class="font-weight-light">National compute resources (e.g., ACCESS, OSG)</li>
+        <ul class="card-text">
+          <li>High performance compute cluster</li>
+          <li>GPU compute systems</li>
+          <li>National compute resources (e.g., ACCESS, OSG)</li>
         </ul>
       </div>
     </div>
@@ -57,9 +57,11 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Data</h2>
-        <p class="card-text">- Storage/backup</p>
-        <p class="card-text">- Shared data access for research groups</p>
-        <p class="card-text">- Data sharing with external collaborators</p>
+        <ul class="card-text">
+          <li>Storage/backup</li>
+          <li>Shared data access for research groups</li>
+          <li> Data sharing with external collaborators</li>
+        </ul>
       </div>
     </div>
   </div>
