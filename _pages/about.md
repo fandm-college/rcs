@@ -60,7 +60,7 @@ We provide assistance in the following areas:
         <ul class="card-text">
           <li>Storage/backup</li>
           <li>Shared data access for research groups</li>
-          <li>Data sharing with external collaborators</li>
+          <li>Facilitate data sharing with external collaborators</li>
         </ul>
       </div>
     </div>
@@ -80,8 +80,7 @@ We provide assistance in the following areas:
         <h2 class="card-title">Software</h2>
         <ul class="card-text">
           <li>Installation and maintenance</li>
-          <li>Help choosing among multiple software options</li>
-          <li>Limited support software optimization</li>
+          <li>Software recommendations</li>
         </ul>
       </div>
     </div>
@@ -121,7 +120,7 @@ We provide assistance in the following areas:
       <div class="card-body">
         <h2 class="card-title">Grants</h2>
         <ul class="card-text">
-          <li>Guidance for equipment/software purchases</li>
+          <li>Guidance purchasing equipment/software</li>
           <li>Data management plans</li>
         </ul>
       </div>
@@ -140,7 +139,14 @@ We provide assistance in the following areas:
       %}
       <div class="card-body">
         <h2 class="card-title">Classes</h2>
-        <p class="card-text">Account access to ArcGIS, MATLAB, Jupyter notebooks, RStudio, WeBWork</p>
+        <ul class="card-text">
+          <li>ArcGIS</li>
+          <li>MATLAB</li>
+          <li>Jupyter notebooks</li>
+          <li>R-Studio</li>
+          <li>WeBWork</li>
+        </ul>
+        
       </div>
     </div>
   </div>
