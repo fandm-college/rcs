@@ -50,7 +50,7 @@ for how many resources to request.  Requesting an appropriate amount of resource
 because it has a direct impact on when jobs can start running and how many jobs can be running at 
 the same time on the cluster.
 
-<p style="note">
+<p class="note">
 When you request compute resources in your job script, those resources are reserved for
 your job **whether your job uses them or not**.  That means that if your request too much
 of a resource, that resource is wasted in the sense it could have been used by another 

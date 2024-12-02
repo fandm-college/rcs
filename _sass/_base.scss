@@ -1315,6 +1315,11 @@ p.note
      padding: 12px;
 }
 
+p.note::before
+{
+  content: "{b}Note: {\b}"
+}
+
 p.warning
 {
      background-color: #f8d7b2;
