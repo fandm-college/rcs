@@ -1317,7 +1317,8 @@ p.note
 
 p.note::before
 {
-  content: "{b}Note: {\b}"
+  font-weight: bold;
+  content: "Note: ";
 }
 
 p.warning
