@@ -1304,3 +1304,31 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Customizations for stylized boxes
+p.note
+{
+     background-color: #b1ddf7;
+     border-left: solid 4px #3498db;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 12px;
+}
+
+p.warning
+{
+     background-color: #f8d7b2;
+     border-left: solid 4px #fab418;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 12px;
+}
+
+p.error
+{
+     background-color: #fab5b5;
+     border-left: solid 4px #eb5439;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 12px;
+}
