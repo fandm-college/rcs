@@ -1,67 +1,64 @@
 ---
 layout: page
-title: Introduction - Compute cluster 
-description: with background image
-img: assets/img/12.jpg
+title: Introduction to the compute cluster 
+img: assets/img/compute.jpg
 importance: 1
 ---
+ A compute cluster is a set of interconnected computers that work together
+ as if they were one very large computer.  The F&M compute cluster consists of
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+ - 1 head node
+    - Not accessible to user or for computation
+    - Handles the behind the scenes cluster management
+ - 1 submit node 
+    - User access for copying data and job submission
+    - Not usable for computation
+ - 36 compute nodes each with
+    -  40 CPUs
+    - 192 GB of memory
+- 2 GPU nodes
+    - 4 GPUs each
+    - Node g01 has 40 CPUs and 192 GB
+    - Node g02 has 64 CPUs and 500 GB of memory
+- 18TB of drive storage **shared among all users**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Performing computations
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A fairly typical research workflow for the cluster is as follows:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. Copy data to the cluster
+2. Create a file (henceforth referred to as a job script) with details
+   about compute resources and your software
+3. Submit your job script to run your computations
+4. When computations finish, copy data/results off the cluster for 
+   post-processing and analysis.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Running your software on a compute cluster is different from how you run software on your personal computer.
+The F&M cluster uses a software package called **Slurm** (**S**imple **l**inux **u**tility for
+**r**esource **m**anagement) which controls how and when your software is run.  Basically, you 
+create a file that requests resources like number of CPUs and amount of memory, and provides details
+about the software you want to use.  Slurm uses that information to add your request to a job
+queue.  Your job will run when
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. Your job gets to or near the top of the job queue AND
+2. All necessary compute resources (e.g., CPUs, memory, etc.) you requested become available
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Requesting resources
+
+Exact details for specifying in your job script are covered ???.  Here we discuss some guidelines
+for how many resources to request.  Requesting an appropriate amount of resources is important
+because it has a direct impact on when jobs can start running and how many jobs can be running at 
+the same time on the cluster.
+
+[!NOTE]
+When you request compute resources in your job script, those resources are reserved for
+your job **whether your job uses them or not**.  That means that if your request too much
+of a resource, that resource is wasted in the sense it could have been used by another 
+job waiting to be run. \ 
+When it comes to the amount of resources you request, we aren't asking that you request 
+the exact right number of resources because there aren't necessarily exact right 
+values.  What we are asking is, to the extent possible, you don't grossly 
+over-request resources for your jobs.
 
 {% raw %}
 
