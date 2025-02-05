@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /profiles/
 title: RCS staff
 #nav: true
 #nav_order: 1
