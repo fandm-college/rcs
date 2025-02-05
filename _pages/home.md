@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: RCS Home
 permalink: /
 
 news: true # includes a list of news items

@@ -1,7 +1,9 @@
 ---
-layout: about
+layout: page
 title: About
-permalink: /
+#permalink: /
+nav: true
+nav_order: 1
 dropdown: true
 children:
    title: RCS Staff
@@ -16,10 +18,6 @@ children:
     permalink: /cluster_tut/
   - title: Purchasing hardware/software for research
     permalink: /globus_tut/
-
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
 ---
 
 ## How can Research Computing Services support you?
