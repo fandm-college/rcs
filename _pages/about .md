@@ -8,7 +8,7 @@ nav_order: 1
 dropdown: true
 children:
   - title: RCS Staff
-    permalink: /profiles/
+    permalink: profiles
   - title: Compute capabilities
     permalink: /linux_tut/
   - title: Getting access
