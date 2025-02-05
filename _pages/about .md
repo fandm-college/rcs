@@ -2,12 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+description: Overview of research computing at F&M
 nav: true
 nav_order: 1
 dropdown: true
 children:
-   title: RCS Staff
-    permalink: profiles
+  - title: RCS Staff
+    permalink: /profiles/
   - title: Compute capabilities
     permalink: /linux_tut/
   - title: Getting access
@@ -19,18 +20,6 @@ children:
   - title: Purchasing hardware/software for research
     permalink: /globus_tut/
 ---
-
-## How can Research Computing Services support you?
-
-Research Computing Services (RCS) provides computational support to research and 
-teaching when those needs excede the capabailities of a standard personal 
-computer. Our goal is to make the access and use of specialized compute 
-and data storage resources easier for faculty and students 
-at Franklin & Marshall College as well as to facilitate 
-collaboration across institutions.
-
-You may reach us by opening a [support request](https://request.fandm.edu/)
-or via e-mail: dorc@fandm.edu
 
 We provide assistance in the following areas:
 
