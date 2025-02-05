@@ -8,7 +8,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-## Overview
+## How can Research Computing Services support you?
 
 Research Computing Services (RCS) provides computational support to research and 
 teaching when those needs excede the capabailities of a standard personal 

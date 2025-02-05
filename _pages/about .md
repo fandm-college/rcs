@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-#permalink: /
+permalink: /about/
 nav: true
 nav_order: 1
 dropdown: true
 children:
    title: RCS Staff
     permalink: profiles
-  - title: Compute Capabilities
+  - title: Compute capabilities
     permalink: /linux_tut/
-  - title: Getting Access
+  - title: Getting access
     permalink: /globus_tut/
-  - title: Data Storage Options
+  - title: Data storage Options
     permalink: /cluster_tut/
   - title: Grant assistance
     permalink: /cluster_tut/
