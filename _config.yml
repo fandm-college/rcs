@@ -197,9 +197,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-  cluster_tut:
+  support:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:permalink/
 
 announcements:
   enabled: true

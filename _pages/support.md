@@ -7,17 +7,17 @@ nav_order: 2
 dropdown: true
 children:
   - title: Getting Help
-    permalink: /support/get_help/
+    permalink: get_help
   - title: Preliminaries
-    permalink: /support/preliminaries/
+    permalink: preliminaries
   - title: Introduction to using a compute cluster
-    permalink: /support/cluster_tutorial/
+    permalink: cluster_tutorial
   - title: Open OnDemand(OOD)
-    permalink: /support/ood_tutorial/
+    permalink: ood_tutorial
   - title: Globus
-    permalink: /support/globus_tutorial/
+    permalink: globus_tutorial
   - title: Introduction to the Linux command-line
-    permalink: /support/linux_tutorial/
+    permalink: linux_tutorial
 ---
 
 
