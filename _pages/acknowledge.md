@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Acknowledgments
+title: Acknowledging RC Support
 permalink: /acknowledge/
 ---
 
 If you have used the F&M research cluster and/or received assistance from a member of the research computing team, we ask that you include an acknowledgement statement in any publication that details your research (e.g., journal articles, conference proceedings, honors thesis).
 
 
-Example Acknowledgement Statements:
+##### Example Acknowledgement Statements:
 
 *“This work was completed in part using the F&M research cluster, supported by F&M's Research Computing team.”*
 
