@@ -1,21 +1,26 @@
 ---
 layout: page
 title: Support
-permalink: /policies/
+permalink: /support/
 nav: true
 nav_order: 2
 dropdown: true
 children:
   - title: Getting Help
-    permalink: /get_help/
+    permalink: /support/get_help/
   - title: Preliminaries
-    permalink: /preliminaries/
+    permalink: /support/preliminaries/
   - title: Introduction to using a compute cluster
-    permalink: /cluster_tutorial/
+    permalink: /support/cluster_tutorial/
   - title: Open OnDemand(OOD)
-    permalink: /ood_tutorial/
+    permalink: /support/ood_tutorial/
   - title: Globus
-    permalink: /globus_tutorial/
+    permalink: /support/globus_tutorial/
   - title: Introduction to the Linux command-line
-    permalink: /linux_tutorial/
+    permalink: /support/linux_tutorial/
 ---
+
+
+## Research Computing Support
+
+Need help getting access to the compute cluster? Having issues with scheduling a job on the cluster? Want a refresher on Linux or high-performance computing? The research computing team is here to help! You can sign up for a consultation with one of our team members, attend a training course, or browse our documentation.
