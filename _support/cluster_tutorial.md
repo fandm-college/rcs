@@ -14,7 +14,7 @@ importance: 3
         {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <h2>Current cluster configuration<h2>
+        <h2>Current cluster configuration</h2>
         <ul>
         <li>36 compute nodes</li>
             <ul>
