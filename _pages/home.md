@@ -26,14 +26,6 @@ We provide assistance in the following areas:
 <div class="row row-cols-1 row-cols-md-3">
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/compute.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
         <h2 class="card-title">Compute</h2>
         <ul class="card-text">
@@ -47,20 +39,12 @@ We provide assistance in the following areas:
 
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/data.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
         <h2 class="card-title">Data</h2>
         <ul class="card-text">
           <li>Storage/backup</li>
           <li>Shared data access for research groups</li>
-          <li>Facilitate data sharing with external collaborators</li>
+          <li>Data sharing with external collaborators</li>
         </ul>
       </div>
     </div>
@@ -68,14 +52,6 @@ We provide assistance in the following areas:
 
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/software.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
         <h2 class="card-title">Software</h2>
         <ul class="card-text">
@@ -88,14 +64,6 @@ We provide assistance in the following areas:
 
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/train.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
         <h2 class="card-title">Training</h2>
         <ul class="card-text">
@@ -109,16 +77,8 @@ We provide assistance in the following areas:
 
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/grant.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
-        <h2 class="card-title">Grants</h2>
+        <h2 class="card-title">Grant Support</h2>
         <ul class="card-text">
           <li>Guidance purchasing equipment/software</li>
           <li>Data management plans</li>
@@ -129,16 +89,8 @@ We provide assistance in the following areas:
 
   <div class="col">
     <div class="card h-100 hoverable">
-      {%
-        include figure.liquid
-        loading="eager"
-        path="assets/img/train.jpg"
-        sizes = "250px"
-        alt="project thumbnail"
-        class="card-img-top"
-      %}
       <div class="card-body">
-        <h2 class="card-title">Classes</h2>
+        <h2 class="card-title">Teaching</h2>
         <ul class="card-text">
           <li>ArcGIS</li>
           <li>MATLAB</li>
