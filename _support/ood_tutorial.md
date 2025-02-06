@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OpenOnDemand tutorials
-img: assets/img/compood.png
+img: assets/img/ood.png
 importance: 4
 ---
 

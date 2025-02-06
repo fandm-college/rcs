@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Preliminary steps
+title: Getting Started
 img: assets/img/prereqs.jpg
 importance: 2
 ---
