@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Cluster tutorials
+importance: 3
 ---
 
 # Under Construction

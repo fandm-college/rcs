@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Globus tutorials 
+title: Globus tutorials
+importance: 5
 ---
 
 # Under Construction
