@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: Cluster policies
+  - title: Compute policies
     permalink: cluster_policy
   - title: Data storage policies
     permalink: data_policy
