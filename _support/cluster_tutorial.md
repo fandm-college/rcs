@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Cluster tutorials
+img: assets/img/compute.jpg
 importance: 3
 ---
 
