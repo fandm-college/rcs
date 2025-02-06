@@ -11,9 +11,9 @@ children:
     permalink: profiles
   - title: Compute capabilities
     permalink: /linux_tut/
-  - title: Getting access
-    permalink: /globus_tut/
-  - title: Data storage Options
+  - title: Requesting access
+    permalink: access
+  - title: Data storage options
     permalink: /cluster_tut/
   - title: Grant assistance
     permalink: /cluster_tut/
