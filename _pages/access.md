@@ -12,17 +12,17 @@ permalink: /access/
 
 ---
 
-Request for access to compute resources should be made by
+Request for access to compute resources should be made by<br>
 submitting a ticket through the on-line system [request.fandm.edu](https://request.fandm.edu)
 
-### Once logged into the ticket system, choose
+##### Once logged into the ticket system, choose
 1. **Information Technology Services**
 2. **Research**
-3. Under the Services heading click<\br>
+3. Under the Services heading click<br>
    **HPC Cluster, Computer Science, or Research Computing Services Account Creation Request**
 4. Click the **Request Service** button on the right side of the screen
 
-### When filling out the details for your request
+##### When filling out the details for your request
 - Change the Department field to **Research Computing Services**
 - As part of the description please include
   1. The compute resource(s) you need access to
