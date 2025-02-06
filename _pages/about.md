@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+#permalink: /about/
 description: Overview of research computing at F&M
 nav: true
 nav_order: 1
