@@ -8,11 +8,11 @@ horizontal: false
 
 <div class="projects">
 
-<!-- Display projects without categories -->
+<!-- Display projects without categories 
 
 {% assign sorted_projects = site.cluster_tut | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
+  <!-- Generate cards for each project
 
 {% if page.horizontal %}
   <div class="container">
@@ -29,4 +29,4 @@ horizontal: false
     {% endfor %}
   </div>
 {% endif %}
-</div>
+</div> -->
