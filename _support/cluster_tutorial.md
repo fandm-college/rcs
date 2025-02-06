@@ -7,7 +7,7 @@ importance: 3
 
 # Under Construction
 
-# What is a compute cluster?
+## What is a compute cluster?
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,8 +31,11 @@ importance: 3
     </div>
 </div>
 
-# Running compute jobs
+---
+## Running compute jobs
 
-# Job script basics
+---
+## Job script basics
 
-# Monitoring a compute job
+---
+## Monitoring a compute job

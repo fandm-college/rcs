@@ -7,8 +7,10 @@ importance: 2
 
 # Under Construction
 
-# VPN
+## VPN
 
-# Windows
+---
+## Windows
 
-# Mac
+---
+## Mac
