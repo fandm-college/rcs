@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Computing Support
+title: Support
 permalink: /support/
 nav: true
 nav_order: 2
