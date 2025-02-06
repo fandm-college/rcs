@@ -6,7 +6,7 @@ description: Collection of compute cluster tutorials
 horizontal: false
 ---
 
-<div class="projects">
+<!-- <div class="projects"> -->
 
 <!-- Display projects without categories 
 
